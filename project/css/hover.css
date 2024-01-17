@@ -1,0 +1,205 @@
+:root {
+  --color-dark-purple-blue: #121723;
+  --color-granite: #292E39;
+  --color-gray-window: #A1A6B4;
+  --color-very-pale-blue: #D2D5DD;
+  --color-white-smoke: #E6E8EC;
+  --color-peru: #BB973E;
+  --color-khaki: #F0D288;
+  --color-dark-blue: #0039A6;
+  --color-fire-brick: #D52B1E;
+  --color-rebecca-purple: #4F28A5;
+  --color-blue-violet: #6D31EE;
+  --color-medium-purple: #AA9DFA;
+  --color-ghost-white: #F5F6F7;
+  --color-white: #fff;
+}
+
+
+.header__btn:focus rect {
+  fill: var(--color-medium-purple);
+}
+
+.header__btn:focus path {
+  stroke: var(--color-medium-purple);
+}
+
+.header__btn:hover rect {
+  fill: var(--color-medium-purple);
+}
+
+.header__btn:hover path {
+  stroke: var(--color-medium-purple);
+}
+
+.header__btn:active rect {
+  fill: var(--color-rebecca-purple);
+}
+
+.header__btn:active path {
+  stroke: var(--color-rebecca-purple);
+}
+
+.podcasts__link:focus {
+  outline-offset: 2px;
+  outline: 1px solid var(--color-medium-purple);
+}
+
+.hero__btn:focus {
+  border: 2px solid var(--color-rebecca-purple);
+  background-color: var(--color-medium-purple);
+}
+
+.hero__btn:hover {
+  border-color: var(--color-medium-purple);
+  background-color: var(--color-medium-purple);
+}
+
+.hero__btn:active {
+  background-color: var(--color-rebecca-purple);
+  background-color: var(--color-rebecca-purple);
+}
+
+.nav__link:focus {
+  color: var(--color-white);
+  background-color: var(--color-medium-purple);
+}
+
+.nav__link:hover {
+  color: var(--color-blue-violet);
+  background-color: transparent;
+}
+
+.nav__link:active {
+  color: var(--color-rebecca-purple);
+  background-color: transparent;
+}
+
+.card__link:focus {
+  color: var(--color-white);
+  background-color: var(--color-medium-purple);
+  background-image: url("../img/card-arrowwhite.svg");
+}
+
+.card__link:hover {
+  padding-right: 33px;
+  color: var(--color-blue-violet);
+  background-image: url("../img/card-arrowmblue.svg");
+  background-color: transparent;
+}
+
+.card__link:active {
+  padding-right: 33px;
+  color: var(--color-rebecca-purple);
+  background-image: url("../img/card-arrowrpurple.svg");
+  background-color: transparent;
+}
+
+.archive__btn:focus {
+  color: var(--color-white);
+  border-color: var(--color-medium-purple);
+  background-color: var(--color-medium-purple);
+}
+
+.archive__btn:hover {
+  color: var(--color-blue-violet);
+  border-color: var(--color-blue-violet);
+  background-color: transparent;
+}
+
+.archive__btn:active {
+  color: var(--color-rebecca-purple);
+  border-color: var(--color-rebecca-purple);
+  background-color: transparent;
+}
+
+.guests__btn:focus {
+  color: var(--color-white);
+  border-color: var(--color-blue-violet);
+  background-color: var(--color-blue-violet);
+}
+
+.guests__btn:hover {
+  color: var(--color-white);
+  border-color: var(--color-medium-purple);
+  background-color: var(--color-medium-purple);
+}
+
+.guests__btn:active {
+  color: var(--color-white);
+  border-color: var(--color-rebecca-purple);
+  background-color: var(--color-rebecca-purple);
+}
+
+.playlists__link:focus {
+  color: var(--color-medium-purple);
+  outline-offset: 1px;
+  outline: 1px solid var(--color-medium-purple);
+}
+
+.advertising__btn:focus {
+  color: var(--color-dark-purple-blue);
+  background-color: var(--color-peru);
+}
+
+.advertising__btn:hover {
+  background-image: url("../img/ym-iconhov.svg");
+  background-color: var(--color-khaki);
+}
+
+.advertising__btn:active {
+  background-image: url("../img/ym-iconact.svg");
+  background-color: var(--color-peru);
+}
+
+.form__input:focus,
+.form__input:hover {
+  background-color: var(--color-granite);
+}
+
+.form__btn:focus {
+  border-color: var(--color-rebecca-purple);
+  background-color: var(--color-medium-purple);
+}
+
+.form__btn:hover {
+  border-color: var(--color-medium-purple);
+  background-color: var(--color-medium-purple);
+}
+
+.form__btn:active {
+  border-color: var(--color-rebecca-purple);
+  background-color: var(--color-rebecca-purple);
+}
+
+.checkbox:focus-within {
+  outline-offset: 3px;
+  outline: 2px solid var(--color-white-smoke);
+}
+
+.social__link:focus .footer__svg {
+  fill: var(--color-medium-purple);
+  transition: fill .4s ease-in-out;
+}
+
+.social__link:hover .footer__svg {
+  fill: var(--color-blue-violet);
+  transition: fill .4s ease-in-out;
+}
+
+.social__link:active .footer__svg {
+  fill: var(--color-rebecca-purple);
+  transition: fill .4s ease-in-out;
+}
+
+.nav__link--light:focus {
+  color: var(--color-medium-purple);
+}
+
+.nav__link--light:hover {
+  color: var(--color-blue-violet);
+}
+
+.nav__link--light:active {
+  color: var(--color-rebecca-purple);
+}
